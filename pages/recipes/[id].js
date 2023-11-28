@@ -6,33 +6,36 @@ import { useEffect } from 'react';
 import Image from 'next/image';
 
 export const getStaticPaths = async () => {
-  const response = await fetch('http://localhost:5000/items');
-  if (!response.ok) {
-    console.error(`HTTP error! Status: ${response.status}`);
+  try {
+    const res = await fetch('http://localhost:5000/items');
+    if (!res.ok) {
+      throw new Error(`HTTP error! Status: ${res.status}, Text: ${await res.text()}`);
+    }
+    const data = await res.json();
+
+
+    if (!Array.isArray(data)) {
+      throw new Error('Data is not an array');
+    }
+
+    const paths = data.map(recipe => ({
+      params: { id: recipe.id }
+    }));
+
+    return {
+      paths,
+      fallback: false
+    };
+
+  } catch (error) {
+    console.error('Error fetching paths data:', error);
     return {
       paths: [],
-      fallback: false,
+      fallback: false
     };
   }
-
-  const data = await response.json();
-  if (!Array.isArray(data)) {
-    console.error('Data is not an array');
-    return {
-      paths: [],
-      fallback: false,
-    };
-  }
-
-  const paths = data.map(recipe => ({
-    params: { id: recipe.id.toString() },
-  }));
-
-  return {
-    paths,
-    fallback: false,
-  };
 };
+
 
 export const getStaticProps = async (context) => {
   const { id } = context.params;
@@ -45,7 +48,7 @@ export const getStaticProps = async (context) => {
     const recipe = data.find(item => item.id === id);
 
     return {
-      props: { recipe },
+      props: { recipe },  
     };
   } catch (error) {
     console.error('Error fetching data:', error);
