@@ -26,7 +26,6 @@ export const getStaticPaths = async () => {
       paths,
       fallback: false
     };
-
   } catch (error) {
     console.error('Error fetching paths data:', error);
     return {
@@ -38,7 +37,7 @@ export const getStaticPaths = async () => {
 
 
 export const getStaticProps = async (context) => {
-  const { id } = context.params;
+  const id = context.params.id;
   try {
     const res = await fetch('http://localhost:5000/items');
     if (!res.ok) {
@@ -57,6 +56,9 @@ export const getStaticProps = async (context) => {
     };
   }
 };
+
+
+
 
 const Details = ({ recipe }) => {
   const controls = useAnimation();
