@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { DiCoffeescript } from 'react-icons/di';
-import { motion, AnimatePresence } from 'framer-motion';  // Make sure to import motion and AnimatePresence
+import { motion, AnimatePresence } from 'framer-motion';
 import styles from './Header.module.css';
 import { useTranslation } from 'react-i18next';
 import { useRouter } from 'next/router';
