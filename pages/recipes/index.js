@@ -31,6 +31,7 @@ export const getStaticProps = async () => {
   }
 };
 
+
 const Recipes = ({ recipes }) => {
   const { t } = useTranslation();
   const [loading, setLoading] = useState(true);
