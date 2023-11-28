@@ -1,0 +1,21 @@
+.burgerMenu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #fff; /* Встановіть потрібний колір фону */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+  }
+  
+  .burgerMenu a {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-decoration: none;
+    color: #000; /* Встановіть потрібний колір тексту */
+  }
+  

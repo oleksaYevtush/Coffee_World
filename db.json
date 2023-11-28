@@ -1,0 +1,211 @@
+{
+   "items":[
+      {
+         "name":"Perfect Iced Coffee",
+         "image":"/icecoffee.jpg",
+         "desc":"This recipe is quick, easy, budget-friendly, and tastes just like the gourmet coffee-shops, if not better!",
+         "id":"001",
+         "instructions":[
+            "I like to make my cold brew a little stronger (double the recipe if you want a larger quantity – 80-100g coffee per 1 litre water).",
+            "Put 40g medium to coarse ground fresh coffee in a cafetière or mason jar.",
+            "Add 500ml cold or room temperature water (filtered if possible). Cover and leave in the refrigerator overnight or for 12-24 hours.",
+            "The next day, filter the coffee. If you’re using a cafetière, press the filter down slowly. Or pass the coffee through a paper filter to make it really clean.",
+            "Put a generous handful of ice in a glass. Pour your cold brew coffee over the ice.",
+            "To drink it black",
+            "Add a generous handful of ice to a glass.",
+            "Pour in your desired amount of cold brew coffee. If it’s too strong, give it a few stirs and let the ice dilute the coffee, or add some cold water to the glass.",
+            "If you like some milk, add 2tsp to take the edge off and to create a beautiful marbled effect.",
+            "To make it milky",
+            "Add a generous amount of ice to a glass.",
+            "Add 50ml strong cold brew coffee.",
+            "Add 200ml of your choice of milk or plant-based alternative."
+         ]
+      },
+      {
+         "name":"Java Chip Frappe",
+         "image":"/javachip.jpg",
+         "desc":"Skip your regular cup of coffee and try this delicious and refreshing frappe blended with coffee and chocolate to kickstart your day.",
+         "id":"002",
+         "instructions":[
+            "Ingredients:",
+            "1 cup of strong brewed coffee, cooled",
+            "2 cups of ice",
+            "1/2 cup of milk (you can use regular milk or a non-dairy alternative)",
+            "2 tablespoons of sugar (adjust to taste)",
+            "2 tablespoons of chocolate syrup",
+            "Whipped cream (optional)",
+            "Chocolate chips (optional)",
+            "Start by brewing a cup of strong coffee. Let it cool to room temperature.",
+            "In a blender, combine the cooled coffee, ice, milk, sugar, and chocolate syrup.",
+            "Blend everything until it's smooth and creamy. You can adjust the sugar and chocolate syrup to suit your taste.",
+            "Pour the Java Chip Frappe into a glass.",
+            "If you like, top it with whipped cream and sprinkle some chocolate chips on top for extra indulgence.",
+            "Stick a straw in it and enjoy your homemade Java Chip Frappe!",
+            "This recipe is easy to make and perfect for those days when you're craving a refreshing coffee treat with a touch of chocolate. Enjoy!"
+         ]
+      },
+      {
+         "name":"Caramel Latte",
+         "image":"/caramel.jpg",
+         "desc":"You can make this caramel coffee latte recipe right at home.",
+         "id":"003",
+         "instructions":[
+            "Ingredients:",
+            "1 shot of espresso (about 1 ounce)",
+            "8 ounces of milk (you can use whole milk, skim milk, or a non-dairy milk like almond or soy)",
+            "2 tablespoons of caramel syrup",
+            "Whipped cream (optional)",
+            "Caramel sauce (for drizzling, optional)",
+            "Instructions:",
+            "Start by brewing a shot of espresso using an espresso machine or a stovetop espresso maker. If you don't have an espresso maker, you can make a strong cup of coffee using instant coffee or a French press.",
+            "In a small saucepan, heat the milk over medium heat. Be careful not to let it boil; you just want it hot but not scalding.",
+            "While the milk is heating, add the caramel syrup to the bottom of your coffee mug.",
+            "Pour the freshly brewed espresso into the mug, on top of the caramel syrup.",
+            "Once the milk is hot, froth it using a milk frother or by vigorously shaking it in a sealed container. You can also use a whisk, but be careful as the milk will be hot.",
+            "Gently pour the frothed milk into the coffee mug, holding back the foam with a spoon to let the liquid milk flow first.",
+            "Top the latte with a dollop of whipped cream if desired and drizzle a little extra caramel sauce on top for added sweetness and decoration.",
+            "Stir the caramel syrup into the coffee, and enjoy your delicious homemade Caramel Latte!"
+         ]
+      },
+      {
+         "name":"Pea Flower Tea Latte (Mermaid Latte)",
+         "image":"/mermaid-latte.jpg",
+         "desc":"We have a new, unique tea latte recipe for you, this Blue Butterfly Pea Flower Tea Latte, also known as Mermaid Latte because of its pretty, all-natural, ocean-blue, color.",
+         "id":"004",
+         "instructions":[
+            "Ingredients:",
+            "3-5 whole leaves butterfly pea flower tea (or 1 tea bag)",
+            "6 ounces hot water (near boiling)",
+            "honey, to taste (or other preferred sweetener)",
+            "3 ounces milk of choice",
+            "Extra loose butterfly pea flowers for garnish (optional)",
+            "Instructions:",
+            "Steep the dried butterfly pea flower in the near boiling water for about 5 minutes.",
+            "Remove loose leaf flower tea or tea bag.",
+            "Sweeten with honey or other sweetener to desired sweetness.",
+            "Froth milk and pour over top.",
+            "Garnish, if desired."
+         ]
+      },
+      {
+         "name":"Ube Latte",
+         "image":"/ube-latte.jpg",
+         "desc":"This creamy and colorful ube latte is sweet and refreshing! Ube extract is mixed with ice and almond milk, then topped with strong espresso.",
+         "id":"005",
+         "instructions":[
+            "Ingredients:",
+            "4 teaspoons of Ube Extract",
+            "120 ml of Milk (1/2 cup)",
+            "120 ml of Espresso (4 shots)",
+            "2 tablespoons of Sweetened Condensed Milk",
+            "Ice (optional)",
+            "Instructions:",
+            "Pour the milk, ube extract, and condensed milk into a large glass or measuring jug.",
+            "Use a milk frother to combine, or stir well with a fork or small whisk.",
+            "If making an iced latte, fill 2 glasses with ice.",
+            "If making a hot latte, microwave the milk mixture for 30 seconds to 1 minute. Stir well and heat in 10-second intervals until your desired temperature.",
+            "Divide the ube milk between 2 glasses or mugs.",
+            "Brew the espresso and divide it over the ube milk.",
+            "Stir gently and enjoy!"
+         ]
+      },
+      {
+         "name":"Amaretto Coffee Creamer",
+         "image":"/amaretto.jpg",
+         "desc":"Flavored coffee creamers at the grocery store make your coffee taste great but are pretty expensive. This amaretto coffee creamer is so quick and easy to make at home",
+         "id":"006",
+         "instructions":[
+            "Ingredients:",
+            "300 grams sweetened condensed milk",
+            "300 grams evaporated milk",
+            "½ teaspoon ground cinnamon",
+            "1 teaspoon almond extract",
+            "Instructions:",
+            "Pour all ingredients into a blender.",
+            "Blend for about 30 seconds or until well blended.",
+            "Store the creamer in an air-tight container in the refrigerator."
+         ]
+      },
+      {
+         "name":"Mocha",
+         "image":"/mocha.jpg",
+         "desc":"This is a chocolate and coffee-lover's favorite! Using a home espresso machine, mix espresso, chocolate, and steamed milk--then top with whipped cream.",
+         "id":"007",
+         "instructions":[
+            "Ingredients:",
+            "Your favourite strong instant coffee",
+            "Milk or milk alternative (to taste)",
+            "Sugar (to taste)",
+            "Water",
+            "Drinking chocolate or cocoa powder",
+            "Cream for topping (optional)",
+            "Chocolate sprinkles (optional)",
+            "Instructions:",
+            "Boil a cup of water in your kettle and add 2 teaspoons of your chosen instant coffee to your cup. If you have sugar in your coffee, add it to taste here.",
+            "Then add 1 tablespoon of drinking chocolate or cocoa powder to your coffee.",
+            "Add about 35ml of freshly boiled (not boiling) water to your instant coffee.",
+            "Next, it’s time to steam the milk. Measure out 250ml of milk.",
+            "Then grab a saucepan and your thermometer, add the measured amount of milk and then heat it slowly on a medium heat, stirring from time to time to ensure it doesn’t boil. If you’re using dairy milk, it will need to reach 65°C, 60°C for soy or 54°C for almond.",
+            "Once the milk is steamed, pour it over the chocolate and coffee mix.",
+            "Add whipped cream and chocolate sprinkles if you wish."
+         ]
+      },
+      {
+         "name":"Dalgona coffee",
+         "image":"/dalgona.jpg",
+         "desc":"The Korean coffee drink taking the internet by storm, dalgona coffee is like a cappucino turned on its head, with the frothy coffee on top and the milk underneath.",
+         "id":"008",
+         "instructions":[
+            "Ingredients:",
+            "2 tablespoons instant coffee",
+            "2 tablespoons granulated sugar",
+            "2 tablespoons boiling water",
+            "a pinch of cinnamon, optional",
+            "1 cup milk of choice, I've tried it with soy milk, almond and oat milk",
+            "Instructions:",
+            "Add all the coffee, sugar and boiling water in a bowl (you can easily double or triple this recipe). Using a hand mixer or stand mixer and whip on one of the higher speeds.",
+            "Whip the entire mixture for about 2 minutes. Scrape down the sides and whip any bits that didn't get whipped.",
+            "Taste (it'll be very strong! But of course diluted with your milk) and add more sugar IF desired. I've seen some people add another tablespoon of sugar, but it was fine for me. Remember it'll be diluted with the milk!",
+            "Add the coffee to a tall glass (about 8 ounces/1 cup) of your favourite milk. I've tried it with soy milk, almond and oat milk. If you're doing iced, add a few ice cubes, then the milk, then spoon the whipped coffee on top. If using hot, just add it to the glass.",
+            "Using your spoon or straw, stir vigorously to swirl it into your milk.",
+            "Sip and enjoy! Also take a photo"
+         ]
+      },
+      {
+         "name":"Ristretto",
+         "image":"/ristretto.jpg",
+         "desc":"The most invigorating coffee drink. It can bring you a storm of emotions and help you find strength on a difficult day.",
+         "id":"009",
+         "instructions":[
+            "Ingredients:",
+            "1 Shot ristretto espresso",
+            "1 Small Cup Espresso",
+            "Instructions:",
+            "The average cooking time is between 15 and 25 seconds. The difference in time depends on the grind level selected.",
+            "Grind the coffee beans as you would normally do for espresso. Add the espresso to the portafilter and gently tamp it down.",
+            "Start the machine and stop it after 15 seconds. Sugar can be added to the finished ristretto for sweetness."
+         ]
+      },
+      {
+         "name":"Matcha Coffee",
+         "image":"/matcha-coffee.jpg",
+         "desc":"Enjoy a matcha coffee at home with this quick, easy matcha coffee recipe. It's a delicious boost that's ready in 5 minutes, cheaper than a coffee shop, and has all the health benefits of matcha AND coffee.",
+         "id":"010",
+         "instructions":[
+            "Ingredients:",
+            "1 1/2 tsp Matcha Powder",
+            "1/2 tsp Sugar or sweetener of choice",
+            "1/4 cup Water warm",
+            "1/2 cup Milk of choice",
+            "1/2 cup Brewed Coffee",
+            "1/2 cup Ice Cubes optional",
+            "Instructions:",
+            "Add matcha powder, sugar, and water to a tall glass (400gram)",
+            "Use a frother, whisk, or mason jar (with lid) to completely combine the three ingredients. For more details on how to do this, see the “Matcha Tea” section above.",
+            "If making an iced version, add ice cubes now.",
+            "Pour milk over the matcha mixture and/or ice.",
+            "Add coffee on top."
+         ]
+      }
+   ]
+}

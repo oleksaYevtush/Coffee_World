@@ -1,0 +1,52 @@
+.aboutContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    justify-items: center;
+    margin-top: 40px;
+}
+
+.aboutHeading {
+    text-align: center;
+    margin-top: 20px;
+    color: #968578;
+}
+
+.card {
+    position: relative; 
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(159, 121, 121, 0.1);
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: filter 0.3s ease;
+}
+
+.card:hover img {
+    filter: brightness(60%);
+}
+
+.overlay {
+    color: #d2b8af;
+    font-size: 23px;
+    text-align: center;
+    background: linear-gradient(to bottom, #0504042e, #433b318c);
+    padding: 10px;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.8);
+    width: 100%;
+}
+
+.card:hover .overlay {
+    opacity: 1; 
+    transform: translate(-50%, -50%) scale(1); 
+}

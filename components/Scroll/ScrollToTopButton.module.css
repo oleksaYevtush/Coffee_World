@@ -1,0 +1,13 @@
+.scrollToTop {
+  position: fixed;
+  bottom: 60px;
+  right: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.scrollToTop.show {
+  opacity: 0.7;
+}

@@ -1,0 +1,95 @@
+.logoContainer {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.logoText {
+  color: #b8a79a;
+  font-size: 30px;
+}
+.linkContainer {
+  position: relative;
+  text-decoration: none;
+}
+.linkContainer::before {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #b8a79a;
+  transition: width 0.3s;
+}
+.linkContainer:hover::before {
+  width: 100%;
+}
+.languageButton {
+  color: #e7d9d9;
+  padding: 9px 25px;
+  border-radius: 5px;
+  border: none;
+  background-image: linear-gradient(45deg, #805a23, #614d4d, #947b7b);
+  transition: 0.5s ease;
+  background-size: 220%;
+}
+.languageButton:hover {
+  background-position: right;
+}
+.languageButton.ua {
+  margin-right: 5px;
+}
+
+/* Burger */
+
+.burgerMenu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 40%; 
+  background-color: #1a1a1a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  z-index: 1000;
+  padding-top: 50px;
+}
+.burgerButton {
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 25px;
+  overflow: hidden;
+  background-image: linear-gradient(45deg, #92682c, #504040, #A77868);
+  transition: 0.5s ease;
+  text-transform: uppercase;
+  border: none;
+  color: #e7d9d9;
+}
+.burgerMenu a {
+  color: #b8a79a;
+  font-size: 25px;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+.closeButton {
+  color: #6b4f2e;
+  font-size: 18px;
+  cursor: pointer;
+  background-color: #928578;
+  border: none;
+  padding: 15px;
+  border-radius: 15px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+@media only screen and (max-width: 511px) {
+  .logoText {
+    font-size: 17px;
+  }
+  .languageButton {
+    margin: 5px 0px 5px 0px;
+  }
+}

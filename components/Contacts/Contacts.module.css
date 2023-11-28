@@ -1,0 +1,53 @@
+.contactContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contactImage {
+  flex: 1;
+  margin-left: 90px; 
+  margin-top: 65px;
+}  
+.contactForm {
+  flex: 1;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.formGroup {
+  margin-bottom: 15px;
+  font-family: 'Poppins', sans-serif;
+}
+.formGroup label {
+  display: block;
+}
+.input,
+.textarea {
+  padding: 8px;
+  background-color: #aa9a7f;
+  width: 270px;
+}
+.submitButton {
+  padding: 15px 25px;
+  background-color: #8e6c3ccf;
+  border-radius: 4px;
+  color: #d2c4c4;;
+  border: none;
+}
+@media only screen and (max-width: 769px) {
+  .input,
+  .textarea {
+    width: 250px;
+  }
+  .contactContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .contactImage img {
+    width: 250px;
+    height: 250px;
+  }
+  .contactImage {
+    margin-left: 30px;
+  }
+}
+  

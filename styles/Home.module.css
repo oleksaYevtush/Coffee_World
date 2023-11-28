@@ -1,0 +1,95 @@
+.homeTitle {
+  text-align: left;
+  font-size: 50px;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to bottom, #805a23, #d8baba);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-top: 25px;
+}
+.homeText {
+  text-align: left;
+  font-size: 25px;
+  margin-right: 15px;
+  background: linear-gradient(to bottom, #805a23, #d8baba);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.recipeBtn {
+  display: block;
+  width: 150px;
+  padding: 13px 0;
+  margin: 45px 0 40px;
+  border-radius: 5px;
+  color: #d2c4c4;
+  text-align: center;
+  border: none;
+  color: #e7d9d9;
+  background-image: linear-gradient(45deg, #92682c, #504040, #A77868);
+  transition: 0.5s ease;
+  background-size: 220%;
+}
+.recipeBtn:hover {
+  background-position: right;
+}
+.mainImage {
+  flex: 1;
+  padding: 70px 0px 0px 10px;
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+.textContainer {
+  max-width: 580px;
+}
+@media only screen and (min-width: 900px) {
+  .homeText {
+    width: 500px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .textContainer {
+    max-width: 400px;
+    margin-left: 5px;
+  }
+  .homeTitle {
+    font-size: 40px;
+  }
+  .homeText {
+    font-size: 25px;
+  }
+}
+.mainImage {
+  flex: 1;
+  padding: 70px 0px 0px 10px;
+}
+@media only screen and (max-width: 645px) {
+  .textContainer {
+    max-width: 100%;
+    font-size: 18px;
+  }
+  .homeTitle {
+    font-size: 30px;
+    text-align: center;
+  }
+  .homeText {
+    text-align: center;
+  }
+  .recipeBtn {
+    margin: 20px auto; 
+  }
+  .content {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .mainImage img {
+    max-width: 100%;
+    height: auto;
+  }
+}
