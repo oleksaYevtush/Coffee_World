@@ -8,25 +8,21 @@ import React, { useState, useEffect } from 'react';
 
 export const getStaticProps = async () => {
   try {
-    const response = await fetch('http://localhost:5000/items');
-    if (!response.ok) {
-      throw new Error(`HTTP error! Status: ${response.status}, Text: ${response.statusText}`);
+    const res = await fetch('http://localhost:5000/items');
+    if (!res.ok) {
+      throw new Error('Failed to fetch data');
     }
-
-    const data = await response.json();
-    if (!data) {
-      return {
-        notFound: true,
-      };
-    }
+    
+    const data = await res.json();
 
     return {
       props: { recipes: data },
     };
   } catch (error) {
     console.error('Error fetching data:', error.message);
+
     return {
-      props: { recipes: null },
+      props: { recipes: [] },  
     };
   }
 };
@@ -74,5 +70,6 @@ const Recipes = ({ recipes }) => {
     )
   );
 };
+  
 
 export default Recipes;
